@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  background-color: ivory;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 1200px;
+}
+nav h1 {
+  float: left;
+  line-height: 80px;
+  font-weight: bold;
+  color: #777;
+}
+.gnb {
+  float: right;
+  width: 400px;
+  list-style: none;
+  text-align: center;
+  line-height: 80px;
+}
+.gnb li {
+  float: left;
+  margin-right: 20px;
+}
+.gnb li:last-child {
+  margin-right: 0;
+}
+.gnb li a {
+  text-decoration: none;
+  font: 14px;
+  color: #333;
+  font-weight: normal;
+}
+.gnb li:hover a {
+  font-weight: bold;
+}
+.gnb .orange > a {
+  color: orange;
+}
+.gnb .green > a {
+  color: green;
+}
+
+.gnb .yellow > a {
+  color: #ffd900;
+}
+
+.gnb .blue > a {
+  color: navy;
+}
+.gnb .red > a {
+  color: orangered;
+}
+#section1 {
+  height: 100vh;
+  background-color: rgba(255, 165, 0);
+  top: 80px;
+  position: relative;
+  margin: auto;
+  z-index: -99;
+}
+#section1 h1 {
+  position: absolute;
+  width: 600px;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  margin: 0 0 0 -300px;
+  font-size: 50px;
+  color: #fff;
+}
+
+#section1 p {
+  position: absolute;
+  width: 1200px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin: 0 0 0 -600px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#section2 {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+  border: 10px solid rgb(0, 128, 0, 0.7);
+}
+.sec {
+  position: absolute;
+  width: 1200px;
+  height: 100%;
+  top: 27%;
+  left: 50%;
+  margin: 0 0 0 -600px;
+}
+.pro_left {
+  float: left;
+  width: 600px;
+  text-align: right;
+}
+
+.pro_left img {
+  width: 550px;
+  height: 424px;
+  border: 10px solid green;
+  border-radius: 30px;
+}
+
+.pro_right {
+  float: right;
+  margin-left: 40px;
+  width: 500px;
+}
+.pro_right h1 {
+  color: green;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.pro_right P {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.pro_right .intro {
+  margin-top: 40px;
+  line-height: 2;
+}
+
+#section3 {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+  border: 10px solid #ffd900;
+}
+
+#section4 {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+  border: 10px solid navy;
+}
+
+#section5 {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+  border: 10px solid orangered;
+}
