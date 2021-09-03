@@ -17,24 +17,29 @@ html {
   clear: both;
 }
 
-.container {
+/* .container {
   width: 100%;
-  /* background-color: #7ea7d6; */
+  background-color: #7ea7d6;
   background-color: #eee;
   position: fixed;
   top: 0;
   left: 0;
-}
+} */
 
 header {
-  width: 1200px;
+  width: 100%;
   height: 80px;
+  top: 0;
   margin: 0 auto;
   position: fixed;
+  z-index: 9999;
+  background-color: #eee;
+  display: flex;
 }
 
 nav {
-  width: 1200px;
+  width: 100%;
+  z-index: 9999;
 }
 
 nav h1 a {
@@ -44,6 +49,7 @@ nav h1 a {
   line-height: 80px;
   font-weight: bold;
   color: #888;
+  padding-left: 70px;
   font-family: "Noto Sans", sans-serif;
 }
 .gnb {
@@ -52,6 +58,7 @@ nav h1 a {
   list-style: none;
   text-align: center;
   line-height: 80px;
+  padding-right: 70px;
 }
 .gnb li {
   float: left;
@@ -187,7 +194,7 @@ nav h1 a {
 }
 
 .pro_left img {
-  width: 450px;
+  width: 600px;
   height: 600px;
   /* border: 10px solid green; */
   border-radius: 30px;
@@ -253,27 +260,28 @@ nav h1 a {
   list-style: none;
   gap: 30px;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
+  margin: 0 0 0 -289px;
 }
 .bottom {
-  width: 1200px;
   display: flex;
   list-style: none;
   gap: 30px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  margin: ;
+  margin: 0 0 0 -289px;
 }
 #section3 img {
+  text-align: center;
   width: 100px;
 }
 #section3 ul li {
   width: 100px;
-  text-align: center;
+  border: 1px solid #ccc;
   border-radius: 20px;
-  padding: 0 10px 70px;
+  padding: 0 10px 0px;
 }
 #section4 {
   position: relative;
