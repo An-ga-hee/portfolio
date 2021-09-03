@@ -244,18 +244,18 @@ nav h1 a {
   position: relative;
   height: 100vh;
   background-color: #fff;
-  border: 10px solid #ffd900;
+  background-color: rgb(255, 217, 0);
 }
 .sec3_bg {
   position: absolute;
   top: 50%;
   right: 50px;
-  color: rgba(255, 217, 0, 0.2);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   font-size: 200px;
   font-family: "Bungee", cursive;
 }
-.top {
+.sec3_top {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -264,7 +264,7 @@ nav h1 a {
   left: 50%;
   margin: 0 0 0 -289px;
 }
-.bottom {
+.sec3_bottom {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -279,9 +279,15 @@ nav h1 a {
 }
 #section3 ul li {
   width: 100px;
+  background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 20px;
-  padding: 0 10px 0px;
+  padding: 0 5px 20px;
+}
+
+#section3 ul li p {
+  text-align: center;
+  padding-top: 20px;
 }
 #section4 {
   position: relative;
