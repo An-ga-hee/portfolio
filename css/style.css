@@ -168,7 +168,7 @@ nav h1 a {
 
 .sec2_bg {
   position: absolute;
-  top: 50%;
+  bottom: 0;
   right: 50px;
   color: rgba(0, 128, 0, 0.2);
   font-weight: bold;
@@ -251,6 +251,7 @@ nav h1 a {
 
 #section3 h2 {
   width: 120px;
+  height: 50px;
   color: #444;
   font-family: "Noto Sans", sans-serif;
 }
@@ -277,11 +278,11 @@ nav h1 a {
   height: 100%;
   color: #ffd900;
   font-family: "Anton", sans-serif;
-  text-shadow: -1px 0 #999, 0 1px #999, 1px 0 #999, 0 -1px #999;
+  text-shadow: -1.5px 0 #999, 0 1.5px #999, 1.5px 0 #999, 0 -1.5px #999;
 }
 .sec3_bg {
   position: absolute;
-  top: 50%;
+  bottom: 0;
   right: 50px;
   color: rgba(255, 217, 0, 0.2);
   font-weight: bold;
@@ -337,7 +338,10 @@ nav h1 a {
   border-radius: 20px;
   padding: 0 5px 20px;
 }
-
+#section3 .wd img {
+  width: 90px;
+  padding: 11.8px 0 5.72px 8px;
+}
 #section3 ul li p {
   text-align: center;
   padding-top: 20px;
@@ -350,7 +354,7 @@ nav h1 a {
 }
 .sec4_bg {
   position: absolute;
-  top: 50%;
+  bottom: 0;
   right: 50px;
   color: rgba(0, 0, 128, 0.2);
   font-weight: bold;
@@ -365,7 +369,7 @@ nav h1 a {
 }
 .sec5_bg {
   position: absolute;
-  top: 50%;
+  bottom: 0;
   right: 50px;
   color: rgba(255, 69, 0, 0.2);
   font-weight: bold;
