@@ -18,15 +18,7 @@ html {
   clear: both;
 }
 
-/* .container {
-  width: 100%;
-  background-color: #7ea7d6;
-  background-color: #eee;
-  position: fixed;
-  top: 0;
-  left: 0;
-} */
-
+/* header */
 header {
   width: 100%;
   height: 80px;
@@ -96,6 +88,8 @@ nav h1 a {
 .gnb .red > a {
   color: #b81c00;
 }
+
+/* section1 */
 #section1 {
   height: 100vh;
   background-color: #eee;
@@ -104,16 +98,6 @@ nav h1 a {
   margin: auto;
   z-index: -99;
 }
-/* #section1 h1 {
-  position: absolute;
-  width: 600px;
-  text-align: center;
-  top: 35%;
-  left: 50%;
-  margin: 0 0 0 -300px;
-  font-size: 50px;
-  color: #fff;
-} */
 
 .txt {
   text-transform: capitalize;
@@ -166,6 +150,7 @@ nav h1 a {
   font-family: "Gowun Batang", serif;
 }
 
+/* section2 */
 .sec2_bg {
   position: absolute;
   bottom: 0;
@@ -176,24 +161,36 @@ nav h1 a {
   font-family: "Bungee", cursive;
 }
 #section2 {
-  position: relative;
+  width: 100%;
   height: 100vh;
   background-color: #fff;
+  position: relative;
 }
-.sec {
-  position: absolute;
-  width: 1200px;
-  height: 100%;
-  top: 20%;
-  left: 50%;
-  margin: 0 0 0 -600px;
+.sec_top {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .pro_left {
-  float: left;
-  width: 47%;
-  text-align: right;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 10%;
+  margin: 0 0 0 -600px;
 }
 
+.pro_left h1 {
+  width: 485px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 0 10px;
+  background-color: green;
+  color: #fff;
+}
 .pro_left img {
   width: 600px;
   height: 600px;
@@ -202,9 +199,11 @@ nav h1 a {
 }
 
 .pro_right {
-  float: right;
-  width: 47%;
-  margin-top: 40px;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 20%;
+  margin: 0 0 0 50px;
 }
 
 .pro_right h1 {
@@ -221,9 +220,11 @@ nav h1 a {
   margin-bottom: 20px;
   font-family: "Noto Sans", sans-serif;
 }
-.pro_right P {
-  margin-bottom: 10px;
-  font-size: 18px;
+
+.me li {
+  line-height: 2;
+  margin-left: 20px;
+  font-size: 22px;
   font-family: "Nanum Gothic", sans-serif;
 }
 
@@ -234,13 +235,21 @@ nav h1 a {
   display: flex;
   flex-direction: row;
 } */
-.pro_right > P > span {
-  font-size: 20px;
+
+.pro_btm {
+  width: 100%;
+  top: 65%;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -574px;
 }
-.pro_right .intro {
+.pro_btm .intro {
   margin-top: 40px;
   line-height: 2;
+  font-size: 20px;
 }
+
+/* section3 */
 
 #section3 {
   position: relative;
@@ -299,7 +308,8 @@ nav h1 a {
   margin: 0 0 0 -400px;
 }
 .sec3_top > li {
-  border: 2px solid #ccc;
+  border: 2px solid #ffd900;
+  cursor: pointer;
 }
 
 .sec3_mid {
@@ -313,7 +323,8 @@ nav h1 a {
 }
 
 .sec3_mid > li {
-  border: 2px solid #ccc;
+  border: 2px solid #ffd900;
+  cursor: pointer;
 }
 .sec3_btm {
   display: flex;
@@ -326,7 +337,13 @@ nav h1 a {
 }
 
 .sec3_btm > li {
-  border: 2px solid #ccc;
+  border: 2px solid #ffd900;
+  cursor: pointer;
+}
+.sec3_btm li p:hover,
+.sec3_top li p:hover,
+.sec3_mid li p:hover {
+  font-weight: bold;
 }
 #section3 img {
   text-align: center;
@@ -346,6 +363,8 @@ nav h1 a {
   text-align: center;
   padding-top: 20px;
 }
+
+/* section4 */
 #section4 {
   position: relative;
   height: 100vh;
@@ -361,6 +380,7 @@ nav h1 a {
   font-size: 200px;
   font-family: "Bungee", cursive;
 }
+/* section5 */
 #section5 {
   position: relative;
   height: 100vh;
@@ -377,6 +397,71 @@ nav h1 a {
   font-family: "Bungee", cursive;
 }
 
+.contact {
+  width: 400px;
+  left: 27%;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+  color: #ddd;
+  position: absolute;
+  top: 15%;
+  z-index: 2;
+}
+
+.contact::before {
+  content: "C O N T A C T";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  color: tomato;
+  font-family: "Anton", sans-serif;
+  text-shadow: -1.5px 0 #fff, 0 1.5px #fff, 1.5px 0 #fff, 0 -1.5px #fff;
+}
+
+.sec5_txt {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  width: 1200px;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 0 -600px;
+}
+.sec5_txt span {
+  color: orangered;
+}
+
+.call {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 800px;
+  height: 300px;
+  margin: 0 0 0 -400px;
+  border: 3px solid orangered;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+.phone,
+.email,
+.github {
+  font-size: 20px;
+}
+.phone:hover,
+.email:hover,
+.github:hover {
+  font-weight: bold;
+}
+.email a,
+.github a {
+  text-decoration: none;
+  color: #333;
+}
 footer p {
   height: 100px;
   line-height: 100px;
