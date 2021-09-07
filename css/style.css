@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -181,13 +182,12 @@ nav h1 a {
 }
 
 .pro_left h1 {
-  width: 485px;
+  width: 305px;
   height: 55px;
   line-height: 55px;
   font-size: 40px;
   margin-bottom: 30px;
-  text-align: left;
-  padding: 0 10px;
+  text-align: center;
   background-color: green;
   color: #fff;
 }
@@ -247,6 +247,7 @@ nav h1 a {
   margin-top: 40px;
   line-height: 2;
   font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 /* section3 */
@@ -455,19 +456,86 @@ nav h1 a {
   font-size: 35px;
   text-align: center;
   margin: 0 0 0 -600px;
+  color: #555;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .sec5_txt span {
   color: orangered;
 }
 
-.call {
+.card {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 600px;
+  height: 300px;
+  margin: 0 0 0 -300px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-right: 15px solid rgba(209, 73, 49, 0.9);
+  box-shadow: 5px 5px 10px #999;
+}
+
+.card_left {
+  height: 300px;
+  width: 300px;
+  color: #333;
+}
+.card_left h3 {
+  padding-left: 40px;
+  padding-top: 40px;
+  color: rgb(209, 73, 49);
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-family: "Anton", sans-serif;
+}
+.card_left h1 {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.card_left .left2 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.card_right {
+  width: 300px;
+  line-height: 2;
+  padding-top: 180px;
+}
+.card_right ul {
+  list-style: none;
+  padding-left: 35px;
+  font-family: "Noto Sans", sans-serif;
+}
+.card_right li {
+  font-size: 16px;
+  width: 240px;
+}
+
+.card_right li:hover {
+  border-bottom: 2px solid rgb(209, 73, 49);
+}
+.card_right li a {
+  color: #333;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* .fab {
+  font-size: 25px;
+} */
+
+/* .call {
   position: absolute;
   top: 40%;
   left: 50%;
   width: 800px;
   height: 300px;
   margin: 0 0 0 -400px;
-  /* border: 3px solid orangered; */
   display: flex;
   justify-content: space-between;
 }
@@ -506,7 +574,7 @@ nav h1 a {
 .github a {
   text-decoration: none;
   color: #333;
-}
+} */
 footer p {
   height: 100px;
   line-height: 100px;
