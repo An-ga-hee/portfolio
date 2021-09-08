@@ -30,7 +30,6 @@ header {
   margin: 0 auto;
   position: fixed;
   z-index: 9999;
-  /* background-color: #eee; */
   display: flex;
   overflow-x: hidden;
 }
@@ -265,7 +264,7 @@ nav {
 }
 
 .skills {
-  width: 300px;
+  width: 600px;
   left: 27%;
   text-align: center;
   font-size: 80px;
@@ -297,6 +296,7 @@ nav {
   font-size: 200px;
   font-family: "Bungee", cursive;
 }
+
 .sec3_top {
   display: flex;
   list-style: none;
@@ -387,7 +387,7 @@ nav {
 }
 
 .project {
-  width: 400px;
+  width: 600px;
   left: 27%;
   text-align: center;
   font-size: 80px;
@@ -458,7 +458,7 @@ nav {
 }
 
 .contact {
-  width: 400px;
+  width: 600px;
   left: 27%;
   text-align: center;
   font-size: 80px;
