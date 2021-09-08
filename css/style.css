@@ -9,10 +9,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+
 #wrap {
   width: 100%;
 }
@@ -35,23 +32,15 @@ header {
   z-index: 9999;
   background-color: #eee;
   display: flex;
+  overflow-x: hidden;
 }
 
 nav {
   width: 100%;
   z-index: 9999;
+  overflow-x: hidden;
 }
 
-nav h1 a {
-  display: block;
-  text-decoration: none;
-  float: left;
-  line-height: 80px;
-  font-weight: bold;
-  color: #888;
-  padding-left: 70px;
-  font-family: "Noto Sans", sans-serif;
-}
 .gnb {
   float: right;
   width: 420px;
@@ -103,6 +92,7 @@ nav h1 a {
   background-color: #eee;
   position: relative;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .txt {
@@ -171,6 +161,7 @@ nav h1 a {
   height: 100vh;
   background-color: #fff;
   position: relative;
+  overflow-x: hidden;
 }
 .sec_top {
   height: 50%;
@@ -263,6 +254,7 @@ nav h1 a {
   height: 100vh;
   background-color: #fff;
   /* border: 10px solid #ffd900; */
+  overflow-x: hidden;
 }
 
 #section3 h2 {
@@ -382,6 +374,7 @@ nav h1 a {
   height: 1600px;
   background-color: #fff;
   border: 10px solid navy;
+  overflow-x: hidden;
 }
 .sec4_bg {
   position: absolute;
@@ -452,6 +445,7 @@ nav h1 a {
   height: 100vh;
   background-color: #fff;
   /* border: 10px solid orangered; */
+  overflow-x: hidden;
 }
 .sec5_bg {
   position: absolute;
