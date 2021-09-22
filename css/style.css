@@ -89,7 +89,7 @@ nav {
 
 .txt {
   text-transform: capitalize;
-  font-size: 120px;
+  font-size: 100px;
   min-width: 700px;
   white-space: nowrap;
   position: absolute;
@@ -237,6 +237,7 @@ nav {
   border-radius: 50px;
   background-color: #fff;
   cursor: pointer;
+  box-shadow: 1px 1px 7px #555;
 }
 .skill_list img {
   margin-top: 12px;
@@ -330,8 +331,7 @@ nav {
   width: 150px;
   height: 40px;
   font-size: 20px;
-  margin: 40px 0 0 125px;
-
+  margin: 40px 125px 0;
   cursor: pointer;
   border: none;
   background-color: #f3bf19;
