@@ -166,7 +166,7 @@ nav {
   text-align: right;
 }
 .pro_left img {
-  width: 600px;
+  max-width: 600px;
   height: 600px;
 }
 .profile {
@@ -229,6 +229,7 @@ nav {
   padding-bottom: 100px;
 }
 .skill_list {
+  max-width: 130px;
   height: 200px;
   display: flex;
   flex-direction: column;
