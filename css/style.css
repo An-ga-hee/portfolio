@@ -279,6 +279,7 @@ nav {
   max-width: 800px;
   height: 550px;
   padding: 0;
+  background-color: #eee;
 }
 .edam img {
   width: 750px;
@@ -286,9 +287,10 @@ nav {
   margin: 50px 25px;
 }
 .pright {
-  background-color: #eee;
+  background-color: #fff;
   padding: 50px;
   max-width: 600px;
+  border-left: 1px solid #ccc;
 }
 .orda img {
   width: 800px;
@@ -300,15 +302,16 @@ nav {
   color: #f3bf19;
   letter-spacing: 3px;
   font-family: "GmarketSansMedium";
+  /* text-shadow: -0.5px 0 #555, 0 0.5px #555, 0.5px 0 #555, 0 -0.5px #555; */
 }
 .pright h3 {
   font-size: 30px;
-  margin: 10px 0 40px;
+  margin: 30px 0 40px;
   color: #555;
   font-family: "GmarketSansMedium";
 }
 .pright p {
-  font-family: "GmarketSansLight";
+  font-family: "GmarketSansMedium";
   color: #555;
 }
 .pright .p1 {
@@ -317,7 +320,7 @@ nav {
 }
 .pright .p2 {
   font-size: 18px;
-  margin: 10px 0 10px;
+  margin: 10px 0 30px;
   font-family: "GmarketSansMedium";
 }
 .pright .p3 {
