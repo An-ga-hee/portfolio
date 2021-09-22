@@ -242,7 +242,7 @@ nav {
 }
 .skill_list p {
   font-size: 18px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "GmarketSansMedium";
   color: #4d5e68;
 }
 
@@ -302,7 +302,6 @@ nav {
   color: #f3bf19;
   letter-spacing: 3px;
   font-family: "GmarketSansMedium";
-  /* text-shadow: -0.5px 0 #555, 0 0.5px #555, 0.5px 0 #555, 0 -0.5px #555; */
 }
 .pright h3 {
   font-size: 30px;
@@ -325,13 +324,12 @@ nav {
 }
 .pright .p3 {
   line-height: 1.6;
-  padding-bottom: 30px;
 }
 .pright button {
   width: 150px;
   height: 40px;
   font-size: 20px;
-  margin-left: 125px;
+  margin: 40px 0 0 125px;
 
   cursor: pointer;
   border: none;
@@ -340,6 +338,9 @@ nav {
 .pright button a {
   text-decoration: none;
   color: #fff;
+}
+.pright button:hover {
+  background-color: #be7d1f;
 }
 /* section5 */
 #section5 {
@@ -433,6 +434,10 @@ nav {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
+  display: block;
+}
+.topbtn:hover {
+  background-color: #be7d1f;
 }
 /* footer */
 footer {
