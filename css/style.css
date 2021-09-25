@@ -104,10 +104,10 @@ html {
   letter-spacing: 3px;
 }
 .txtleft {
-  margin-right: 300px;
+  margin-right: 350px;
 }
 .txtright {
-  margin-left: 300px;
+  margin-left: 350px;
 }
 .profile_wrap {
   display: flex;
@@ -145,6 +145,7 @@ html {
 .introduce {
   display: flex;
   flex-direction: column;
+
   gap: 20px;
 }
 .intro {
@@ -185,6 +186,8 @@ html {
   gap: 15px;
   justify-content: center;
   padding-bottom: 100px;
+  margin: auto;
+  flex-wrap: wrap;
 }
 .skill_list {
   max-width: 130px;
@@ -205,7 +208,10 @@ html {
   font-family: "GmarketSansMedium";
   color: #4d5e68;
 }
-
+.skill_list:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 /* section4 */
 #section4 {
   max-width: 100%;
@@ -226,11 +232,12 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 0 auto;
+  margin: auto;
+  flex-wrap: wrap;
 }
 .project_list {
   max-width: 1300px;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: row;
   box-shadow: 1px 1px 7px #ccc;
@@ -242,7 +249,7 @@ html {
   background-color: #eee;
 }
 .edam img {
-  width: 750px;
+  max-width: 750px;
   height: 450px;
   margin: 50px 25px;
 }
@@ -294,7 +301,7 @@ html {
   border: none;
   background-color: #f3bf19;
 }
-.pright button a {
+.pright a button {
   text-decoration: none;
   color: #fff;
 }
