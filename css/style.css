@@ -307,6 +307,7 @@ html {
 }
 .pright button:hover {
   background-color: #be7d1f;
+  transition: 0.5s;
 }
 /* section5 */
 #section5 {
@@ -404,6 +405,7 @@ html {
 }
 .topbtn:hover {
   background-color: #be7d1f;
+  transition: 0.5s;
 }
 /* footer */
 footer {
