@@ -95,6 +95,7 @@ html {
   max-width: 100%;
   text-align: center;
   padding: 100px 0;
+  margin: auto;
 }
 .sec2_txt h1 {
   height: 50px;
@@ -110,8 +111,9 @@ html {
   margin-left: 350px;
 }
 .profile_wrap {
+  width: 100%;
   display: flex;
-  gap: 80px;
+  gap: 50px;
   margin: 0 auto;
   width: 100%;
   font-family: "GmarketSansMedium";
@@ -130,6 +132,7 @@ html {
 .profile {
   display: flex;
   gap: 30px;
+  max-width: 600px;
 }
 .profile h3 {
   border-bottom: 2px solid #f3bf19;
@@ -229,6 +232,7 @@ html {
   font-size: 30px;
 }
 .project {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -236,6 +240,7 @@ html {
   flex-wrap: wrap;
 }
 .project_list {
+  width: 100%;
   max-width: 1300px;
   margin: auto;
   display: flex;
@@ -243,6 +248,7 @@ html {
   box-shadow: 1px 1px 7px #ccc;
 }
 .pleft {
+  width: 60%;
   max-width: 800px;
   height: 550px;
   padding: 0;
@@ -254,6 +260,7 @@ html {
   margin: 50px 25px;
 }
 .pright {
+  width: 40%;
   background-color: #fff;
   padding: 50px;
   max-width: 600px;
